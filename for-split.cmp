@@ -1,0 +1,587 @@
+Cmp-Mod V01 Created by PcbNew   date = Thu Feb  8 20:50:47 2018
+
+BeginCmp
+TimeStamp = 5A70E271
+Path = /59F6594A
+Reference = MX0:0;
+ValeurCmp = MX0:11;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E34D
+Path = /59F6626F
+Reference = MX3:2;
+ValeurCmp = MX3:9;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E358
+Path = /59F6627D
+Reference = MX3:3;
+ValeurCmp = MX3:8;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E36E
+Path = /5A6FEBDF
+Reference = MX3:5;
+ValeurCmp = MX3:6;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E230
+Path = /59F66268
+Reference = D19;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A79E855
+Path = 
+Reference = Hole;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A79E801
+Path = 
+Reference = Hole;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E394
+Path = /5A704713
+Reference = U1;
+ValeurCmp = ProMicro;
+IdModule  = idle-hands:Pro_Micro;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E27C
+Path = /59F65958
+Reference = MX0:1;
+ValeurCmp = MX0:10;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A72457F
+Path = 
+Reference = Hole;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A724578
+Path = 
+Reference = Hole;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A724571
+Path = 
+Reference = Hole;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1C4
+Path = /59F65951
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1CA
+Path = /59F6595F
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1D0
+Path = /59F65982
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1D6
+Path = /59F65989
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1DC
+Path = /59F65990
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1E2
+Path = /5A6FEBCD
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1E8
+Path = /59F640C2
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1EE
+Path = /59F64384
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1F4
+Path = /59F64580
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E1FA
+Path = /59F645D6
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E200
+Path = /59F64620
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E206
+Path = /5A6FEBC1
+Reference = D12;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E20C
+Path = /59F66052
+Reference = D13;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E212
+Path = /59F66060
+Reference = D14;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E218
+Path = /59F66083
+Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E21E
+Path = /59F6608A
+Reference = D16;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E224
+Path = /59F66091
+Reference = D17;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E22A
+Path = /5A6FEBD9
+Reference = D18;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E236
+Path = /59F66276
+Reference = D20;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E23C
+Path = /59F66299
+Reference = D21;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E242
+Path = /59F662A0
+Reference = D22;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E248
+Path = /59F662A7
+Reference = D23;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E24E
+Path = /5A6FEBE5
+Reference = D24;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E258
+Path = /5A038449
+Reference = GROUND1;
+ValeurCmp = Ground;
+IdModule  = canadian_footprints:SIngle_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E373
+Path = /5A03811E
+Reference = RESET1;
+ValeurCmp = Reset;
+IdModule  = canadian_footprints:SIngle_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E378
+Path = /5A02CBEB
+Reference = TX0;
+ValeurCmp = TX0;
+IdModule  = canadian_footprints:SIngle_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A722C94
+Path = 
+Reference = Hole;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E287
+Path = /59F65966
+Reference = MX0:2;
+ValeurCmp = MX0:9;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E292
+Path = /59F6596D
+Reference = MX0:3;
+ValeurCmp = MX0:8;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2A8
+Path = /5A6FEBC7
+Reference = MX0:5;
+ValeurCmp = MX0:6;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2B3
+Path = /59F64072
+Reference = MX1:0;
+ValeurCmp = MX1:11;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2BE
+Path = /59F6414E
+Reference = MX1:1;
+ValeurCmp = MX1:10;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2C9
+Path = /59F643E1
+Reference = MX1:2;
+ValeurCmp = MX1:9;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2D4
+Path = /59F6444B
+Reference = MX1:3;
+ValeurCmp = MX1:8;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2DF
+Path = /59F644B0
+Reference = MX1:4;
+ValeurCmp = MX1:7;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2EA
+Path = /5A6FEBBB
+Reference = MX1:5;
+ValeurCmp = MX1:6;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E2F5
+Path = /59F6604B
+Reference = MX2:0;
+ValeurCmp = MX2:11;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E300
+Path = /59F66059
+Reference = MX2:1;
+ValeurCmp = MX2:10;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E30B
+Path = /59F66067
+Reference = MX2:2;
+ValeurCmp = MX2:9;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E316
+Path = /59F6606E
+Reference = MX2:3;
+ValeurCmp = MX2:8;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E321
+Path = /59F66075
+Reference = MX2:4;
+ValeurCmp = MX2:7;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E32C
+Path = /5A6FEBD3
+Reference = MX2:5;
+ValeurCmp = MX2:6;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E337
+Path = /5A1B3633
+Reference = MX3:0;
+ValeurCmp = MX3:11;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E342
+Path = /59F66261
+Reference = MX3:1;
+ValeurCmp = MX3:10;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E363
+Path = /59F66284
+Reference = MX3:4;
+ValeurCmp = MX3:7;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A70E29D
+Path = /59F65974
+Reference = MX0:4;
+ValeurCmp = MX0:7;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A738A58
+Path = /59FA3B42
+Reference = J1;
+ValeurCmp = TRRS;
+IdModule  = idle-hands:PJ320D_DOUBLESIDED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A7389B5
+Path = /5A73C569
+Reference = J2;
+ValeurCmp = TRRS;
+IdModule  = idle-hands:PJ320D_DOUBLESIDED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A76F2F2
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = idle-hands:boldy1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD69
+Path = /5A78D260
+Reference = D25;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD75
+Path = /5A78D27E
+Reference = D27;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD7B
+Path = /5A78D284
+Reference = D28;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD81
+Path = /5A78D28A
+Reference = D29;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD87
+Path = /5A78D2A7
+Reference = D30;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD92
+Path = /5A78D298
+Reference = MX4:0;
+ValeurCmp = MX4:11;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD9D
+Path = /5A78D25A
+Reference = MX4:1;
+ValeurCmp = MX4:10;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CDA8
+Path = /5A78D266
+Reference = MX4:2;
+ValeurCmp = MX4:9;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CDB3
+Path = /5A78D272
+Reference = MX4:3;
+ValeurCmp = MX4:8;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CDBE
+Path = /5A78D278
+Reference = MX4:4;
+ValeurCmp = MX4:7;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CDC9
+Path = /5A78D2A1
+Reference = MX4:5;
+ValeurCmp = MX4:6;
+IdModule  = idle-hands:MX_FLIP_CUTOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A78CD6F
+Path = /5A78D26C
+Reference = D26;
+ValeurCmp = DIODE;
+IdModule  = idle-hands:DIODE;
+EndCmp
+
+EndListe
