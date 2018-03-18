@@ -6,11 +6,10 @@ The goal of this project is to build a Let's Split keyboard clone with a number 
 * Supports both 6x4x2 and 6x5x2 layouts and 2U keys in the bottom corners of the 6x5x2 layout.
 * Switch plate cutouts in the PCB so the same PCB can also be used as a switch plate.
 * Serial communication over a TRRS cable only.
-* No LED support.
+* Support for indicator LEDs.
 * Single sided PCB, so both halves of the keyboard are identical.
 
-
-Documentation is a work in progress.
+![PCB render](pcb.png)
 
 # Bill of Materials (BOM)
 
