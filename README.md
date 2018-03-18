@@ -19,9 +19,15 @@ The goal of this project is to build a Let's Split keyboard clone with a number 
 * 2 Pro Micro controllers with headers or DIP sockets.
 * 2 PJ320D 3.5mm TRRS jacks.
 * TRRS cable and micro USB cable.
-* 8 2M standoffs
+* 8 2M standoffs (12mm, depending on required height)
 * 16 2M screws
-* 46 MX compatible key caps.
+* 48/60 MX compatible key caps.
+
+## Tools
+
+* Hacksaw blade or similar
+* Flat edged file or sanding paper
+* Soldering iron and solder
 
 # Ordering PCBs
 
@@ -34,16 +40,15 @@ When uploading the gerber zip files, use the default PCB settings. The plate PCB
 # Construction
 
 * You will need 4 PCBs.
-* Use a hacksaw or similar to remove the 4 support screw holes from the 2 component PCBs.
-* If you are using the 6x4x2 layout, cut the bottom row of switch footprints from the 4 PCBs. 
-* Use a hacksaw or similar to remove the cutouts for the switch plate PCBs, use sand paper to smooth down and rough edges. 
+* Use the hacksaw blade to remove the 4 support screw holes from the 2 component PCBs.
+* If you are using the 6x4x2 layout, carefully cut the bottom row of switch footprints from the 4 PCBs. 
+* Use a hacksaw blade to remove the cutouts for the switch plate PCBs, use a flat edged file to smooth down and rough edges. 
 * Solder the diodes onto the underside of each PCB.
 * Solder on the Pro Micro headers (or a 24 pin DIP socket) onto the underside of each PCB, do not solder on the Pro Micros yet.
 * Solder the PJ320D TRRS sockets onto the underside of each PCB. These are SMD components rather than through-hole so as not to interfere with the switch locations.
 * Insert the switches into the plate and then into the top of the PCBs. Insert all the switches and ensure that the pins of each switch are correctly coming through the board and are not bent under the PCB.
 * Solder all the switch pins.
-* Solder on the Pro Micros, ensure that you get them the correct way around and with the correct side up, the chip side should be face down on the left hand PCB and chip side up on the right hand PCB.
+* Solder on the Pro Micros, ensure that you get them the correct way around, the chip side should be face down towards the PCB.
 * Attach the standoffs to the plate PCB with the screws.
-* Attach the base to the standoffs.
 * Connect the halves together with the TRRS cable.
 * Flash both Pro Micros with the firmware, see the [QMK documentation](http://qmk.fm/) on how to build and flash the firmware.
