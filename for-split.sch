@@ -932,7 +932,7 @@ F 1 "LED" H 1470 4870 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 1470 4970 50  0001 C CNN
 F 3 "" H 1470 4970 50  0001 C CNN
 	1    1470 4970
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED L1:1
@@ -943,7 +943,7 @@ F 1 "LED" H 1470 5200 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 1470 5300 50  0001 C CNN
 F 3 "" H 1470 5300 50  0001 C CNN
 	1    1470 5300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3510 2660 3180 2660
@@ -1075,7 +1075,7 @@ F 1 "LED" H 2970 4860 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 2970 4960 50  0001 C CNN
 F 3 "" H 2970 4960 50  0001 C CNN
 	1    2970 4960
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED L2:1
@@ -1086,7 +1086,7 @@ F 1 "LED" H 2970 5220 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 2970 5320 50  0001 C CNN
 F 3 "" H 2970 5320 50  0001 C CNN
 	1    2970 5320
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3120 4960 3120 6000
@@ -1107,7 +1107,7 @@ F 1 "LED" H 1470 5540 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 1470 5640 50  0001 C CNN
 F 3 "" H 1470 5640 50  0001 C CNN
 	1    1470 5640
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED L1:3
@@ -1118,7 +1118,7 @@ F 1 "LED" H 1470 5860 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 1470 5960 50  0001 C CNN
 F 3 "" H 1470 5960 50  0001 C CNN
 	1    1470 5960
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Connection ~ 1320 5300
 Connection ~ 1620 5300
@@ -1133,7 +1133,7 @@ F 1 "LED" H 2970 5560 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 2970 5660 50  0001 C CNN
 F 3 "" H 2970 5660 50  0001 C CNN
 	1    2970 5660
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED L2:3
@@ -1144,7 +1144,7 @@ F 1 "LED" H 2970 5900 50  0000 C CNN
 F 2 "idle-hands:MX_LED" H 2970 6000 50  0001 C CNN
 F 3 "" H 2970 6000 50  0001 C CNN
 	1    2970 6000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Connection ~ 2820 5320
 Connection ~ 3120 5320
