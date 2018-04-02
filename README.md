@@ -1,4 +1,4 @@
-Split Infinitive is a 6x4x2 key ortholinear split keyboard PCB.
+Split Infinitive is a 6x5x2 key ortholinear split keyboard PCB.
 
 The goal of this project is to build a Let's Split keyboard clone with a number of alternative features:
 
@@ -17,11 +17,13 @@ The goal of this project is to build a Let's Split keyboard clone with a number 
 * 48/60 MX compatible switches.
 * 48/60 1n4148 diodes.
 * 2 Pro Micro controllers with headers or DIP sockets.
-* 2 PJ320D 3.5mm TRRS jacks.
+* 2 PJ320A 3.5mm TRRS jacks.
 * TRRS cable and micro USB cable.
 * 8 2M standoffs (12mm, depending on required height)
 * 16 2M screws
 * 48/60 MX compatible key caps.
+* 4 LEDs (type depends on your switches and preference)
+* 4 220ohm resistors (or an appropriate size for the LEDs)
 
 ## Tools
 
@@ -40,13 +42,18 @@ When uploading the gerber zip files, use the default PCB settings. The plate PCB
 # Construction
 
 * You will need 4 PCBs.
+* If you are using the 6x4x2 layout, carefully cut the bottom row of switch footprints from the 4 PCBs.
 * Use the hacksaw blade to remove the 4 support screw holes from the 2 component PCBs.
-* If you are using the 6x4x2 layout, carefully cut the bottom row of switch footprints from the 4 PCBs. 
-* Use a hacksaw blade to remove the cutouts for the switch plate PCBs, use a flat edged file to smooth down and rough edges. 
+* Use a hacksaw blade to remove the cutouts for the switch plate PCBs.
 * Solder the diodes onto the underside of each PCB.
 * Solder on the Pro Micro headers (or a 24 pin DIP socket) onto the underside of each PCB, do not solder on the Pro Micros yet.
-* Solder the PJ320D TRRS sockets onto the underside of each PCB. These are SMD components rather than through-hole so as not to interfere with the switch locations.
-* Insert the switches into the plate and then into the top of the PCBs. Insert all the switches and ensure that the pins of each switch are correctly coming through the board and are not bent under the PCB.
+* Solder the PJ320A TRRS sockets onto the underside of each PCB.
+  * There are 2 positions per board, use the right position on the left hand PCB and the left position on the right hand PCB.
+  * Ensure that the pins will not foul the placement of the switches and still allow the switches to sit flat on the PCB.
+  * You may need to slightly bend the pins inwards away from the switch footprint.
+* Insert the switches into the plate and then into the top of the PCBs.
+  * Insert all the switches and ensure that the pins of each switch are correctly coming through the board and are not bent under the PCB.
+  * The top switch that sits underneath the Pro Micro can be inserted in either a north or south facing orientation. North facing helps to prevent it shorting on the Pro Micro components.
 * Solder all the switch pins.
 * Solder on the Pro Micros, ensure that you get them the correct way around, the chip side should be face down towards the PCB.
 * Attach the standoffs to the plate PCB with the screws.
