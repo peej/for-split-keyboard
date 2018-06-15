@@ -159,7 +159,7 @@ U 1 1 59F6594A
 P 4990 1730
 F 0 "MX0:0" H 5140 1840 50  0000 C CNN
 F 1 "MX0:11" H 4990 1650 50  0000 C CNN
-F 2 "idle-hands:MX_CUTOUT_PAD1" H 4990 1730 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 4990 1730 60  0001 C CNN
 F 3 "" H 4990 1730 60  0000 C CNN
 	1    4990 1730
 	1    0    0    -1  
@@ -181,7 +181,7 @@ U 1 1 59F65958
 P 5890 1730
 F 0 "MX0:1" H 6040 1840 50  0000 C CNN
 F 1 "MX0:10" H 5890 1650 50  0000 C CNN
-F 2 "idle-hands:MX_CUTOUT_PAD3" H 5890 1730 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 5890 1730 60  0001 C CNN
 F 3 "" H 5890 1730 60  0000 C CNN
 	1    5890 1730
 	1    0    0    -1  
@@ -203,7 +203,7 @@ U 1 1 59F65966
 P 6790 1730
 F 0 "MX0:2" H 6940 1840 50  0000 C CNN
 F 1 "MX0:9" H 6790 1650 50  0000 C CNN
-F 2 "idle-hands:MX_CUTOUT" H 6790 1730 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT_NTHSTH" H 6790 1730 60  0001 C CNN
 F 3 "" H 6790 1730 60  0000 C CNN
 	1    6790 1730
 	1    0    0    -1  
@@ -225,7 +225,7 @@ U 1 1 59F65974
 P 8690 1730
 F 0 "MX0:4" H 8840 1840 50  0000 C CNN
 F 1 "MX0:7" H 8690 1650 50  0000 C CNN
-F 2 "idle-hands:MX_CUTOUT_PAD1" H 8690 1730 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 8690 1730 60  0001 C CNN
 F 3 "" H 8690 1730 60  0000 C CNN
 	1    8690 1730
 	1    0    0    -1  
@@ -518,7 +518,7 @@ U 1 1 59FA3B42
 P 2980 2460
 F 0 "J1" H 2930 2540 50  0000 C CNN
 F 1 "TRRS" H 3100 2090 50  0000 C CNN
-F 2 "Connectors:PJ320D_3.5mm_Jack" H 3230 2560 50  0001 C CNN
+F 2 "idle-hands:PJ-320A" H 3230 2560 50  0001 C CNN
 F 3 "" H 3230 2560 50  0001 C CNN
 	1    2980 2460
 	1    0    0    -1  
@@ -526,12 +526,12 @@ $EndComp
 $Comp
 L GND #PWR03
 U 1 1 5A00C01A
-P 3400 4050
-F 0 "#PWR03" H 3400 3800 50  0001 C CNN
-F 1 "GND" H 3400 3900 50  0000 C CNN
-F 2 "" H 3400 4050 50  0001 C CNN
-F 3 "" H 3400 4050 50  0001 C CNN
-	1    3400 4050
+P 3780 3580
+F 0 "#PWR03" H 3780 3330 50  0001 C CNN
+F 1 "GND" H 3780 3430 50  0000 C CNN
+F 2 "" H 3780 3580 50  0001 C CNN
+F 3 "" H 3780 3580 50  0001 C CNN
+	1    3780 3580
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -540,7 +540,7 @@ U 1 1 5A03811E
 P 3200 3570
 F 0 "RESET1" H 3200 3670 50  0000 C CNN
 F 1 "Reset" H 3200 3470 50  0000 C CNN
-F 2 "canadian_footprints:SIngle_Pad" H 3200 3570 50  0001 C CNN
+F 2 "idle-hands:Square_Pad" H 3200 3570 50  0001 C CNN
 F 3 "" H 3200 3570 50  0001 C CNN
 	1    3200 3570
 	1    0    0    -1  
@@ -548,12 +548,12 @@ $EndComp
 $Comp
 L Conn_01x01 GROUND1
 U 1 1 5A038449
-P 3200 4050
-F 0 "GROUND1" H 3200 4150 50  0000 C CNN
-F 1 "Ground" H 3200 3950 50  0000 C CNN
-F 2 "canadian_footprints:SIngle_Pad" H 3200 4050 50  0001 C CNN
-F 3 "" H 3200 4050 50  0001 C CNN
-	1    3200 4050
+P 3580 3580
+F 0 "GROUND1" H 3580 3680 50  0000 C CNN
+F 1 "Ground" H 3580 3480 50  0000 C CNN
+F 2 "idle-hands:Square_Pad" H 3580 3580 50  0001 C CNN
+F 3 "" H 3580 3580 50  0001 C CNN
+	1    3580 3580
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -595,7 +595,7 @@ U 1 1 5A6FEBC7
 P 9640 1730
 F 0 "MX0:5" H 9790 1840 50  0000 C CNN
 F 1 "MX0:6" H 9640 1650 50  0000 C CNN
-F 2 "idle-hands:MX_CUTOUT_PAD3" H 9640 1730 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 9640 1730 60  0001 C CNN
 F 3 "" H 9640 1730 60  0000 C CNN
 	1    9640 1730
 	1    0    0    -1  
@@ -663,30 +663,30 @@ U 1 1 5A704713
 P 2130 3720
 F 0 "U1" H 2130 2870 60  0000 C CNN
 F 1 "ProMicro" H 2130 4170 60  0000 C CNN
-F 2 "idle-hands:Pro_Micro" H 2130 3720 60  0001 C CNN
+F 2 "idle-hands:Pro_Micro_ChipSideDown" H 2130 3720 60  0001 C CNN
 F 3 "" H 2130 3720 60  0001 C CNN
 	1    2130 3720
 	1    0    0    -1  
 $EndComp
-Text Label 1630 3970 2    60   ~ 0
+Text Label 2630 3770 0    60   ~ 0
 Row0
-Text Label 1630 4170 2    60   ~ 0
+Text Label 2630 3870 0    60   ~ 0
 Row1
-Text Label 1630 4270 2    60   ~ 0
+Text Label 1630 4470 2    60   ~ 0
 Row2
 Text Label 1630 4370 2    60   ~ 0
 Row3
-Text Label 2630 3970 0    60   ~ 0
-Col0
-Text Label 2630 4070 0    60   ~ 0
-Col1
-Text Label 2630 4170 0    60   ~ 0
-Col2
 Text Label 2630 4270 0    60   ~ 0
-Col3
+Col0
 Text Label 2630 4370 0    60   ~ 0
-Col4
+Col1
 Text Label 2630 4470 0    60   ~ 0
+Col2
+Text Label 1630 3970 2    60   ~ 0
+Col3
+Text Label 1630 4070 2    60   ~ 0
+Col4
+Text Label 1630 4170 2    60   ~ 0
 Col5
 $Comp
 L GND #PWR04
@@ -710,9 +710,6 @@ F 3 "" H 2630 3670 50  0001 C CNN
 	1    2630 3670
 	0    1    1    0   
 $EndComp
-NoConn ~ 2630 3770
-NoConn ~ 2630 3870
-NoConn ~ 1630 3470
 NoConn ~ 1630 3570
 NoConn ~ 2630 3370
 $Comp
@@ -721,7 +718,7 @@ U 1 1 5A73C569
 P 2180 2460
 F 0 "J2" H 2130 2540 50  0000 C CNN
 F 1 "TRRS" H 2300 2090 50  0000 C CNN
-F 2 "Connectors:PJ320D_3.5mm_Jack" H 2430 2560 50  0001 C CNN
+F 2 "idle-hands:PJ-320A" H 2430 2560 50  0001 C CNN
 F 3 "" H 2430 2560 50  0001 C CNN
 	1    2180 2460
 	1    0    0    -1  
@@ -754,7 +751,7 @@ U 1 1 5A78D25A
 P 5890 4710
 F 0 "MX4:1" H 6040 4820 50  0000 C CNN
 F 1 "MX4:10" H 5890 4630 50  0000 C CNN
-F 2 "idle-hands:MX2U_CUTOUT" H 5890 4710 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 5890 4710 60  0001 C CNN
 F 3 "" H 5890 4710 60  0000 C CNN
 	1    5890 4710
 	1    0    0    -1  
@@ -809,7 +806,7 @@ U 1 1 5A78D278
 P 8690 4710
 F 0 "MX4:4" H 8840 4820 50  0000 C CNN
 F 1 "MX4:7" H 8690 4630 50  0000 C CNN
-F 2 "idle-hands:MX" H 8690 4710 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 8690 4710 60  0001 C CNN
 F 3 "" H 8690 4710 60  0000 C CNN
 	1    8690 4710
 	1    0    0    -1  
@@ -855,7 +852,7 @@ U 1 1 5A78D298
 P 4990 4710
 F 0 "MX4:0" H 5140 4820 50  0000 C CNN
 F 1 "MX4:11" H 4990 4630 50  0000 C CNN
-F 2 "idle-hands:MX" H 4990 4710 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 4990 4710 60  0001 C CNN
 F 3 "" H 4990 4710 60  0000 C CNN
 	1    4990 4710
 	1    0    0    -1  
@@ -866,7 +863,7 @@ U 1 1 5A78D2A1
 P 9640 4710
 F 0 "MX4:5" H 9790 4820 50  0000 C CNN
 F 1 "MX4:6" H 9640 4630 50  0000 C CNN
-F 2 "idle-hands:MX2U_CUTOUT" H 9640 4710 60  0001 C CNN
+F 2 "idle-hands:MX_CUTOUT" H 9640 4710 60  0001 C CNN
 F 3 "" H 9640 4710 60  0000 C CNN
 	1    9640 4710
 	1    0    0    -1  
@@ -882,69 +879,124 @@ F 3 "" H 9940 4910 60  0001 C CNN
 	1    9940 4910
 	0    1    1    0   
 $EndComp
-Text Label 1630 4470 2    60   ~ 0
+Text Label 1630 4270 2    60   ~ 0
 Row4
-$Comp
-L Conn_01x01 TX0
-U 1 1 5A02CBEB
-P 1430 3370
-F 0 "TX0" H 1430 3470 50  0000 C CNN
-F 1 "TX0" H 1430 3270 50  0000 C CNN
-F 2 "canadian_footprints:SIngle_Pad" H 1430 3370 50  0001 C CNN
-F 3 "" H 1430 3370 50  0001 C CNN
-	1    1430 3370
-	-1   0    0    1   
-$EndComp
 $Comp
 L Conn_01x01 EXTRADATA1
 U 1 1 5A8082B9
 P 2630 1940
 F 0 "EXTRADATA1" H 2630 2040 50  0000 C CNN
 F 1 "ExtraData" H 2630 1840 50  0000 C CNN
-F 2 "canadian_footprints:SIngle_Pad" H 2630 1940 50  0001 C CNN
+F 2 "idle-hands:Single_Pad" H 2630 1940 50  0001 C CNN
 F 3 "" H 2630 1940 50  0001 C CNN
 	1    2630 1940
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R R1
-U 1 1 5A900E6D
-P 1770 5470
-F 0 "R1" V 1850 5470 50  0000 C CNN
-F 1 "R" V 1770 5470 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1700 5470 50  0001 C CNN
-F 3 "" H 1770 5470 50  0001 C CNN
-	1    1770 5470
-	0    1    1    0   
-$EndComp
-Text Label 1240 5470 2    60   ~ 0
-LED1
-Text Label 1630 4070 2    60   ~ 0
-LED1
+NoConn ~ 1630 3670
+Text Label 2760 5820 2    60   ~ 0
+Col6
+Text Label 2760 5920 2    60   ~ 0
+Col7
+Text Label 2760 6020 2    60   ~ 0
+Col8
+Text Label 2760 6120 2    60   ~ 0
+Col9
+Text Label 2760 6220 2    60   ~ 0
+Col10
+Text Label 2760 6320 2    60   ~ 0
+Col11
+Text Label 2630 3970 0    60   ~ 0
+Col6
+Text Label 2630 4070 0    60   ~ 0
+Col7
+Text Label 2630 4170 0    60   ~ 0
+Col8
+Text Label 1630 3870 2    60   ~ 0
+Col9
 Text Label 1630 3770 2    60   ~ 0
-LED2
+Col10
+Text Label 1630 3470 2    60   ~ 0
+Col11
 $Comp
-L LED L1:0
-U 1 1 5A900AED
-P 1470 4970
-F 0 "L1:0" H 1470 5070 50  0000 C CNN
-F 1 "LED" H 1470 4870 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 1470 4970 50  0001 C CNN
-F 3 "" H 1470 4970 50  0001 C CNN
-	1    1470 4970
-	-1   0    0    -1  
+L Conn_01x05 ROWS_L1
+U 1 1 5B1993FB
+P 4300 6080
+F 0 "ROWS_L1" H 4300 6380 50  0000 C CNN
+F 1 "Conn_01x05" H 4300 5780 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_5" H 4300 6080 50  0001 C CNN
+F 3 "" H 4300 6080 50  0001 C CNN
+	1    4300 6080
+	1    0    0    -1  
 $EndComp
 $Comp
-L LED L1:1
-U 1 1 5A903DAB
-P 1470 5300
-F 0 "L1:1" H 1470 5400 50  0000 C CNN
-F 1 "LED" H 1470 5200 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 1470 5300 50  0001 C CNN
-F 3 "" H 1470 5300 50  0001 C CNN
-	1    1470 5300
-	-1   0    0    -1  
+L Conn_01x06 COLS_RH1
+U 1 1 5B19959C
+P 2960 6020
+F 0 "COLS_RH1" H 2960 6320 50  0000 C CNN
+F 1 "Conn_01x06" H 2960 5620 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_6" H 2960 6020 50  0001 C CNN
+F 3 "" H 2960 6020 50  0001 C CNN
+	1    2960 6020
+	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_01x06 COLS_LH1
+U 1 1 5B19B70C
+P 2280 6020
+F 0 "COLS_LH1" H 2280 6320 50  0000 C CNN
+F 1 "Conn_01x06" H 2280 5620 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_6" H 2280 6020 50  0001 C CNN
+F 3 "" H 2280 6020 50  0001 C CNN
+	1    2280 6020
+	1    0    0    -1  
+$EndComp
+Text Label 2080 5820 2    60   ~ 0
+Col0
+Text Label 2080 5920 2    60   ~ 0
+Col1
+Text Label 2080 6020 2    60   ~ 0
+Col2
+Text Label 2080 6120 2    60   ~ 0
+Col3
+Text Label 2080 6220 2    60   ~ 0
+Col4
+Text Label 2080 6320 2    60   ~ 0
+Col5
+$Comp
+L Conn_01x05 ROWS_R1
+U 1 1 5B19D665
+P 5210 6080
+F 0 "ROWS_R1" H 5210 6380 50  0000 C CNN
+F 1 "Conn_01x05" H 5210 5780 50  0000 C CNN
+F 2 "idle-hands:CONNECTOR_5" H 5210 6080 50  0001 C CNN
+F 3 "" H 5210 6080 50  0001 C CNN
+	1    5210 6080
+	1    0    0    -1  
+$EndComp
+Text Label 4100 5880 2    60   ~ 0
+Row0
+Text Label 5010 5880 2    60   ~ 0
+Row0
+Text Label 4100 5980 2    60   ~ 0
+Row1
+Text Label 5010 5980 2    60   ~ 0
+Row1
+Text Label 4100 6080 2    60   ~ 0
+Row2
+Text Label 5010 6080 2    60   ~ 0
+Row2
+Text Label 4100 6180 2    60   ~ 0
+Row3
+Text Label 5010 6180 2    60   ~ 0
+Row3
+Text Label 4100 6280 2    60   ~ 0
+Row4
+Text Label 5010 6280 2    60   ~ 0
+Row4
+Text Label 2450 3150 2    60   ~ 0
+Data
+Text Label 1630 3370 2    60   ~ 0
+Data
 Wire Wire Line
 	3510 3150 3510 2560
 Connection ~ 5290 3630
@@ -1008,12 +1060,8 @@ Connection ~ 8990 2130
 Wire Wire Line
 	2630 3570 3000 3570
 Wire Wire Line
-	1190 3150 3510 3150
-Wire Wire Line
-	1190 3870 1630 3870
+	2450 3150 3510 3150
 Connection ~ 2990 3570
-Wire Wire Line
-	1190 3150 1190 3870
 Connection ~ 6190 5110
 Connection ~ 8040 5110
 Connection ~ 7090 5110
@@ -1034,145 +1082,15 @@ Wire Wire Line
 Wire Wire Line
 	2630 2140 2630 2460
 Wire Wire Line
-	3180 2460 3180 2250
-Wire Wire Line
-	3180 2250 2630 2250
-Connection ~ 2630 2250
-Wire Wire Line
-	1620 4970 1620 5960
-Connection ~ 1620 5470
-Wire Wire Line
-	1320 4970 1320 5960
-Wire Wire Line
-	1240 5470 1320 5470
-Wire Wire Line
-	1320 5470 1320 5460
-Connection ~ 1320 5460
-$Comp
-L R R2
-U 1 1 5A9055FD
-P 3270 5490
-F 0 "R2" V 3350 5490 50  0000 C CNN
-F 1 "R" V 3270 5490 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3200 5490 50  0001 C CNN
-F 3 "" H 3270 5490 50  0001 C CNN
-	1    3270 5490
-	0    1    1    0   
-$EndComp
-Text Label 2740 5490 2    60   ~ 0
-LED2
-$Comp
-L LED L2:0
-U 1 1 5A90560A
-P 2970 4960
-F 0 "L2:0" H 2970 5060 50  0000 C CNN
-F 1 "LED" H 2970 4860 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 2970 4960 50  0001 C CNN
-F 3 "" H 2970 4960 50  0001 C CNN
-	1    2970 4960
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LED L2:1
-U 1 1 5A905610
-P 2970 5320
-F 0 "L2:1" H 2970 5420 50  0000 C CNN
-F 1 "LED" H 2970 5220 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 2970 5320 50  0001 C CNN
-F 3 "" H 2970 5320 50  0001 C CNN
-	1    2970 5320
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3120 4960 3120 6000
-Connection ~ 3120 5490
-Wire Wire Line
-	2820 4960 2820 6000
-Wire Wire Line
-	2740 5490 2820 5490
-Wire Wire Line
-	2820 5490 2820 5480
-Connection ~ 2820 5480
-$Comp
-L LED L1:2
-U 1 1 5A9075D6
-P 1470 5640
-F 0 "L1:2" H 1470 5740 50  0000 C CNN
-F 1 "LED" H 1470 5540 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 1470 5640 50  0001 C CNN
-F 3 "" H 1470 5640 50  0001 C CNN
-	1    1470 5640
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LED L1:3
-U 1 1 5A9076D0
-P 1470 5960
-F 0 "L1:3" H 1470 6060 50  0000 C CNN
-F 1 "LED" H 1470 5860 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 1470 5960 50  0001 C CNN
-F 3 "" H 1470 5960 50  0001 C CNN
-	1    1470 5960
-	-1   0    0    -1  
-$EndComp
-Connection ~ 1320 5300
-Connection ~ 1620 5300
-Connection ~ 1620 5640
-Connection ~ 1320 5640
-$Comp
-L LED L2:2
-U 1 1 5A908C0D
-P 2970 5660
-F 0 "L2:2" H 2970 5760 50  0000 C CNN
-F 1 "LED" H 2970 5560 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 2970 5660 50  0001 C CNN
-F 3 "" H 2970 5660 50  0001 C CNN
-	1    2970 5660
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LED L2:3
-U 1 1 5A908D0F
-P 2970 6000
-F 0 "L2:3" H 2970 6100 50  0000 C CNN
-F 1 "LED" H 2970 5900 50  0000 C CNN
-F 2 "idle-hands:MX_LED" H 2970 6000 50  0001 C CNN
-F 3 "" H 2970 6000 50  0001 C CNN
-	1    2970 6000
-	-1   0    0    -1  
-$EndComp
-Connection ~ 2820 5320
-Connection ~ 3120 5320
-Connection ~ 3120 5660
-Connection ~ 2820 5660
-$Comp
-L GND #PWR08
-U 1 1 5AAEB9AB
-P 1920 5470
-F 0 "#PWR08" H 1920 5220 50  0001 C CNN
-F 1 "GND" H 1920 5320 50  0000 C CNN
-F 2 "" H 1920 5470 50  0001 C CNN
-F 3 "" H 1920 5470 50  0001 C CNN
-	1    1920 5470
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR09
-U 1 1 5AAEBAA9
-P 3420 5490
-F 0 "#PWR09" H 3420 5240 50  0001 C CNN
-F 1 "GND" H 3420 5340 50  0000 C CNN
-F 2 "" H 3420 5490 50  0001 C CNN
-F 3 "" H 3420 5490 50  0001 C CNN
-	1    3420 5490
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 1630 3670
-Wire Wire Line
 	3510 2560 3180 2560
 Wire Wire Line
 	2380 2560 2630 2560
 Wire Wire Line
 	2630 2560 2630 3150
 Connection ~ 2630 3150
+Wire Wire Line
+	3180 2460 3180 2250
+Connection ~ 2630 2250
+Wire Wire Line
+	3180 2250 2630 2250
 $EndSCHEMATC

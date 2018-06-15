@@ -1,8 +1,8 @@
-(module MX2U_CUTOUT (layer F.Cu) (tedit 5AAD8E27)
-  (fp_text reference MX*** (at -11.43 3.81) (layer F.SilkS)
+(module MX2U_CUTOUT (layer F.Cu) (tedit 5B241CEB)
+  (fp_text reference MX4:1 (at -11.43 3.81) (layer F.SilkS)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
-  (fp_text value CUTOUT (at 0 5.08) (layer F.SilkS) hide
+  (fp_text value MX4:10 (at 0 5.08) (layer F.SilkS) hide
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
   (fp_line (start 8.5 7) (end 1 7) (layer Edge.Cuts) (width 0.15))
@@ -154,8 +154,4 @@
   (pad HOLE np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu))
   (pad HOLE np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
-  (pad "" np_thru_hole circle (at -11.938 6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu))
-  (pad "" np_thru_hole circle (at 11.938 6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu))
-  (pad "" np_thru_hole circle (at -11.938 -8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu))
-  (pad "" np_thru_hole circle (at 11.938 -8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu))
 )

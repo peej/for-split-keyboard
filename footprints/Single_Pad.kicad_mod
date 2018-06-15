@@ -1,0 +1,9 @@
+(module Single_Pad (layer F.Cu) (tedit 5B198339)
+  (fp_text reference PAD? (at 0 1.75) (layer F.SilkS)
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (fp_text value "Single Pad" (at 0 -1.85) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.SilkS *.Mask))
+)
