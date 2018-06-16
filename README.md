@@ -3,10 +3,9 @@ Split Infinitive is a 6x5x2 key ortholinear split keyboard PCB.
 The goal of this project is to build a Let's Split keyboard clone with a number of alternative features:
 
 * Designed to be easy to build with minimal soldering experience.
-* Supports both 6x4x2 and 6x5x2 layouts and 2U keys in the bottom corners of the 6x5x2 layout.
+* Supports both 6x5x2 and 12x5x1 layouts and 2U keys in the bottom corners.
 * Switch plate cutouts in the PCB so the same PCB can also be used as a switch plate.
-* Serial communication over a TRRS cable only.
-* Support for indicator LEDs.
+* Serial communication over a TRRS cable in split configuration.
 * Single sided PCB, so both halves of the keyboard are identical.
 
 ![PCB render](pcb.png)
@@ -14,16 +13,14 @@ The goal of this project is to build a Let's Split keyboard clone with a number 
 # Bill of Materials (BOM)
 
 * 4 PCBs, 2 for components and 2 as switch plates.
-* 48/60 MX compatible switches.
-* 48/60 1n4148 diodes.
-* 2 Pro Micro controllers with headers or DIP sockets.
-* 2 PJ320A 3.5mm TRRS jacks.
+* 60 MX compatible switches.
+* 60 1n4148 diodes.
+* 1 or 2 Pro Micro controllers with headers or DIP sockets.
+* 2 PJ320A 3.5mm TRRS jacks for split configuration.
 * TRRS cable and micro USB cable.
 * 8 2M standoffs (12mm, depending on required height)
 * 16 2M screws
-* 48/60 MX compatible key caps.
-* 4 LEDs (type depends on your switches and preference)
-* 4 220ohm resistors (or an appropriate size for the LEDs)
+* 60 MX compatible key caps.
 
 ## Tools
 
@@ -42,11 +39,12 @@ When uploading the gerber zip files, use the default PCB settings. The plate PCB
 # Construction
 
 * You will need 4 PCBs.
-* If you are using the 6x4x2 layout, carefully cut the bottom row of switch footprints from the 4 PCBs.
 * Use the hacksaw blade to remove the 4 support screw holes from the 2 component PCBs.
 * Use a hacksaw blade to remove the cutouts for the switch plate PCBs.
 * Solder the diodes onto the underside of each PCB.
 * Solder on the Pro Micro headers (or a 24 pin DIP socket) onto the underside of each PCB, do not solder on the Pro Micros yet.
+  * In split configuration, both PCBs require a Pro Micro so add headers to both PCBs.
+  * In non-split configuration, only the master side requires a Pro Micro.
 * Solder the PJ320A TRRS sockets onto the underside of each PCB.
   * There are 2 positions per board, use the right position on the left hand PCB and the left position on the right hand PCB.
   * Ensure that the pins will not foul the placement of the switches and still allow the switches to sit flat on the PCB.
